@@ -13,7 +13,7 @@ public class CameraRotater : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        CharacterController controller = GameObject.Find("Cube").GetComponent<CharacterController>();
+        CharacterController controller = GameObject.Find("Player").GetComponent<CharacterController>();
     }
 	
 	// Update is called once per frame

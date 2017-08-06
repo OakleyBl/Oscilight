@@ -12,7 +12,7 @@ public class GreenLights : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        player = GameObject.Find("Cube");
+        player = GameObject.Find("Player");
     }
 	
 	// Update is called once per frame
@@ -33,13 +33,13 @@ public class GreenLights : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.name == "Cube")
+        if (col.gameObject.name == "Player")
             active = true;
     }
 
     private void OnTriggerExit(Collider col)
     {
-        if (col.gameObject.name == "Cube")
+        if (col.gameObject.name == "Player")
             active = false;
     }
 }

@@ -93,10 +93,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraRotater.cs" />
-    <Compile Include="Assets\CharacterMovement.cs" />
-    <Compile Include="Assets\GreenLights.cs" />
-    <Compile Include="Assets\RedLights.cs" />
+    <Compile Include="Assets\Scripts\CameraRotater.cs" />
+    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\GreenLights.cs" />
+    <Compile Include="Assets\Scripts\RedLights.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

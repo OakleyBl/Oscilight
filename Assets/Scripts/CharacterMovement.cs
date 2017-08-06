@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        CharacterController controller = GameObject.Find("Cube").GetComponent<CharacterController>();
+        CharacterController controller = GameObject.Find("Player").GetComponent<CharacterController>();
 
         if (controller.isGrounded)
         {
@@ -59,7 +59,7 @@ public class CharacterMovement : MonoBehaviour {
 
         transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
 
-        GameObject.Find("Main Camera").GetComponent<Transform>().localPosition = GameObject.Find("Cube").GetComponent<Transform>().localPosition;
+        GameObject.Find("Player Camera").GetComponent<Transform>().localPosition = GameObject.Find("Player").GetComponent<Transform>().localPosition;
     }
 
 }
