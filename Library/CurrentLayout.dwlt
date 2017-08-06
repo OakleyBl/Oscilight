@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 46
+  controlID: 45
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 284
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 45
+  controlID: 44
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,18 +337,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Owner\Documents\Oscilight
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40250000
-    m_LastClickedID: 9536
+    m_SelectedIDs: fe240000
+    m_LastClickedID: 9470
     m_ExpandedIDs: 00000000fe24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -493,9 +493,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2060000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 86fbffffbefbffff00000000
+    m_SelectedIDs: a6fbffff
+    m_LastClickedID: -1114
+    m_ExpandedIDs: a6fbffffbcfbffffbefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -545,14 +545,14 @@ MonoBehaviour:
     width: 1066
     height: 591
   m_SceneLighting: 1
-  lastFramingTime: 18659.735381644314
+  lastFramingTime: 574.7490129115826
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 46.043667, y: -3.6498241, z: 47.356262}
+    m_Target: {x: 8.54915, y: -20.54968, z: 30.403372}
     speed: 2
-    m_Value: {x: 46.043667, y: -3.6498241, z: 47.356262}
+    m_Value: {x: 8.54915, y: -20.54968, z: 30.403372}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -575,13 +575,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.016578969, y: 0.42487755, z: -0.007782658, w: 0.90506554}
+    m_Target: {x: 0.27743313, y: 0.08719649, z: -0.025291491, w: 0.9564455}
     speed: 2
-    m_Value: {x: 0.016578969, y: 0.42487755, z: -0.007782658, w: 0.90506554}
+    m_Value: {x: 0.27743313, y: 0.08719649, z: -0.025291491, w: 0.9564455}
   m_Size:
-    m_Target: 80.955765
+    m_Target: 46.698208
     speed: 2
-    m_Value: 80.955765
+    m_Value: 46.698208
   m_Ortho:
     m_Target: 0
     speed: 2

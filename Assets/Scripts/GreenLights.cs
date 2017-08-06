@@ -5,9 +5,8 @@ using UnityEngine;
 public class GreenLights : MonoBehaviour {
 
     GameObject player;
-    Vector3 heightChange = new Vector3(0.0f, 0.5f, 0.0f);
+    Vector3 heightChange = new Vector3(0.0f, 0.05f, 0.0f);
     bool active;
-    float frames;
 
     // Use this for initialization
     void Start ()
@@ -18,16 +17,10 @@ public class GreenLights : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (active)
+        if (active && player.transform.localPosition.y > this.transform.localPosition.y + this.gameObject.transform.GetChild(0).transform.localPosition.y + transform.localScale.y / 2)
         {
-            frames += 1;
-            if (frames >= 30)
-            {
-                player.transform.localPosition += heightChange / 2;
-                this.gameObject.transform.GetChild(0).transform.localScale += heightChange;
-                frames = 0;
-            }
-            
+            player.transform.localPosition += heightChange / 2;
+            this.gameObject.transform.GetChild(0).transform.localScale += heightChange;
         }
     }
 
