@@ -59,7 +59,7 @@ public class CharacterMovement : MonoBehaviour {
 
         transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
 
-        GameObject.Find("Player Camera").GetComponent<Transform>().localPosition = GameObject.Find("Player").GetComponent<Transform>().localPosition;
+        GameObject.Find("Main Camera").GetComponent<Transform>().localPosition = GameObject.Find("Player").GetComponent<Transform>().localPosition;
     }
 
 }
