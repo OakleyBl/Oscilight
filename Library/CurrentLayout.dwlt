@@ -337,18 +337,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Objects
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets
+  - Assets/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Owner\Documents\Oscilight
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe240000
-    m_LastClickedID: 9470
+    m_SelectedIDs: 92250000
+    m_LastClickedID: 9618
     m_ExpandedIDs: 00000000fe24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -493,9 +493,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6fbffff
-    m_LastClickedID: -1114
-    m_ExpandedIDs: a6fbffffbcfbffffbefbffff00000000
+    m_SelectedIDs: befbffff
+    m_LastClickedID: -1090
+    m_ExpandedIDs: 00f9ffffbefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,9 +550,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.54915, y: -20.54968, z: 30.403372}
+    m_Target: {x: 27.157951, y: -10.263016, z: -3.5494223}
     speed: 2
-    m_Value: {x: 8.54915, y: -20.54968, z: 30.403372}
+    m_Value: {x: 27.157951, y: -10.263016, z: -3.5494223}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -575,9 +575,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.27743313, y: 0.08719649, z: -0.025291491, w: 0.9564455}
+    m_Target: {x: -0.1333198, y: -0.61414593, z: 0.10625543, w: -0.7705585}
     speed: 2
-    m_Value: {x: 0.27743313, y: 0.08719649, z: -0.025291491, w: 0.9564455}
+    m_Value: {x: -0.1333198, y: -0.61414593, z: 0.10625543, w: -0.7705585}
   m_Size:
     m_Target: 46.698208
     speed: 2
